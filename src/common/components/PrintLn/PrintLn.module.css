@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
+
+.println {
+  font-size: 2vmin;
+  font-family: JetBrains Mono, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e4bb68;
+  margin: 0;
+  padding: 0;
+}
+
+.white {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.red {
+  color: #e06c75;
+  margin: 0;
+  padding: 0;
+}
+
+.blue {
+  color: #61afef;
+  margin: 0;
+  padding: 0;
+}
+
+.lines {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  animation: move 4s infinite;
+  margin: 0;
+  padding: 0;
+}
+
+.line {
+  position: relative;
+  top: 8.6vmin;
+  animation: white-out 5s infinite;
+  margin: 0;
+  padding: 0;
+}
+
+.closure::after {
+  content: '';
+  position: absolute;
+  height: 16vmin;
+  width: 25vmin;
+  background: #282c34;
+  transform: translate(-32vmin, -15.5vmin);
+}
+
+.closure::before {
+  content: '';
+  position: absolute;
+  height: 16.2vmin;
+  width: 25vmin;
+  background: #282c34;
+  transform: translate(-25vmin, 5.5vmin);
+}
+
+.line-0 {
+  color: #fa8231;
+}
+
+.line-1 {
+  color: white;
+}
+
+.line-2 {
+  color: #c678dd;
+}
+
+.line-3 {
+  color: #a9b0bd;
+}
+
+@keyframes move {
+  25% {
+    transform: translatey(-5.8vmin);
+    opacity: 1;
+  }
+  50% {
+    transform: translatey(-11vmin);
+  }
+  75% {
+    transform: translatey(-16.5vmin);
+  }
+}
