@@ -1,6 +1,6 @@
 .container {
   background: #1f2024;
-  min-height: 100vh;
+  min-height: 65vh;
   overflow: hidden;
   position: relative;
   margin: 0;
@@ -28,56 +28,24 @@
   left: 75%;
   top: 40%;
 }
+
 .shape_blob.one {
   background: #0085ff;
   height: 150px;
   width: 200px;
-  left: 10px;
-  top: 10px;
+  left: 3vmax;
+  top: 1vmax;
   transform: rotate(-180deg);
   animation: transform 8s ease-in-out infinite both alternate,
     movement_two 20s ease-in-out infinite both;
 }
 
-.shape_blob.six {
-  background: #0eafff;
-  height: 70px;
-  width: 100px;
-  left: 160px;
-  top: 200px;
-  transform: rotate(-180deg);
-  animation: transform 5s ease-in-out infinite both alternate,
-    movement_two 5s ease-in-out infinite both;
-}
-
-.shape_blob.four {
-  background: #4eaeff;
-  height: 100px;
-  width: 80px;
-  left: 350px;
-  top: 60px;
-  transform: rotate(-180deg);
-  animation: transform 17s ease-in-out infinite both alternate,
-    movement_two 13s ease-in-out infinite both;
-}
-
-.shape_blob.five {
-  background: #0085ff;
-  height: 100px;
-  width: 80px;
-  left: 480px;
-  top: 30px;
-  transform: rotate(-180deg);
-  animation: transform 12s ease-in-out infinite both alternate,
-    movement_two 18s ease-in-out infinite both;
-}
-
 .shape_blob.two {
-  background: #4eaeff;
+  background: #6c4eff;
   height: 150px;
   width: 150px;
-  left: 600px;
-  top: 150px;
+  left: 42vmax;
+  top: 12vmax;
   transform: rotate(-180deg);
   animation: transform 10s ease-in-out infinite both alternate,
     movement_two 10s ease-in-out infinite both;
@@ -87,47 +55,111 @@
   background: #0eafff;
   height: 150px;
   width: 150px;
-  left: 800px;
-  top: 30px;
+  left: 70vmax;
+  top: 2vmax;
   transform: rotate(-180deg);
   animation: transform 7s ease-in-out infinite both alternate,
     movement_two 23s ease-in-out infinite both;
 }
 
+.shape_blob.four {
+  background: #ff4e74;
+  height: 100px;
+  width: 80px;
+  left: 22vmax;
+  top: 6vmax;
+  transform: rotate(-180deg);
+  animation: transform 17s ease-in-out infinite both alternate,
+    movement_two 13s ease-in-out infinite both;
+}
+
+.shape_blob.five {
+  background: #0085ff;
+  height: 100px;
+  width: 80px;
+  left: 30vmax;
+  top: 4vmax;
+  transform: rotate(-180deg);
+  animation: transform 12s ease-in-out infinite both alternate,
+    movement_two 18s ease-in-out infinite both;
+}
+
+.shape_blob.seven {
+  background: #ffcf0e;
+  height: 130px;
+  width: 100px;
+  left: 3vmax;
+  top: 25vmax;
+  transform: rotate(-180deg);
+  animation: transform 5s ease-in-out infinite both alternate,
+    movement_two 5s ease-in-out infinite both;
+}
+
+.shape_blob.eight {
+  background: #f620fa;
+  height: 170px;
+  width: 200px;
+  left: 20vmax;
+  top: 23vmax;
+  transform: rotate(-180deg);
+  animation: transform 5s ease-in-out infinite both alternate,
+    movement_two 5s ease-in-out infinite both;
+}
+
+.shape_blob.nine {
+  background: #24fa20;
+  height: 170px;
+  width: 200px;
+  left: 90vmax;
+  top: 20vmax;
+  transform: rotate(-180deg);
+  animation: transform 5s ease-in-out infinite both alternate,
+    movement_two 5s ease-in-out infinite both;
+}
+
 @keyframes transform {
+
   0%,
   100% {
     border-radius: 33% 67% 70% 30% / 30% 40% 70% 70%;
   }
+
   20% {
     border-radius: 37% 63% 51% 49% / 37% 35% 35% 63%;
   }
+
   40% {
     border-radius: 36% 64% 64% 36% / 64% 48% 52% 26%;
   }
+
   60% {
     border-radius: 37% 63% 51% 49% / 30% 30% 70% 73%;
   }
+
   80% {
     border-radius: 40% 60% 42% 58% / 51% 51% 49% 59%;
   }
 }
 
 @keyframes movement_one {
+
   0%,
   100% {
     transform: none;
   }
+
   50% {
     transform: translate(50%, 20%) rotateY(10deg) scale(1);
   }
 }
 
 @keyframes movement_two {
+
   0%,
   500% {
     transform: none;
   }
+
   50% {
     transform: translate(50%, 20%) rotate(-200deg) scale(1.3);
   }

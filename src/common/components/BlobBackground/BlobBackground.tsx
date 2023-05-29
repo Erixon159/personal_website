@@ -12,7 +12,9 @@ export const BlobBackground: React.FC = ({ children }) => {
         <div className={[styles.shape_blob, styles.four].join(' ')}></div>
         <div className={[styles.shape_blob, styles.five].join(' ')}></div>
         <div className={[styles.shape_blob, styles.six].join(' ')}></div>
-
+        <div className={[styles.shape_blob, styles.seven].join(' ')}></div>
+        <div className={[styles.shape_blob, styles.eight].join(' ')}></div>
+        <div className={[styles.shape_blob, styles.nine].join(' ')}></div>
       </div>
       {children}
     </div>

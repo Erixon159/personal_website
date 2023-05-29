@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
 
 .println {
-  font-size: 2vmin;
+  --size: 1.5vmin;
+
+  font-size: var(--size);
   font-family: JetBrains Mono, monospace;
   display: flex;
   justify-content: center;
@@ -40,55 +42,115 @@
 
 .line {
   position: relative;
-  top: 8.6vmin;
-  animation: white-out 5s infinite;
+  top: calc(3.73*var(--size));
   margin: 0;
   padding: 0;
 }
 
-.closure::after {
+/* .closure::after {
   content: '';
   position: absolute;
-  height: 16vmin;
-  width: 25vmin;
+  height: calc(10.67*var(--size));
+  width: calc(16.67*var(--size));
   background: #282c34;
-  transform: translate(-32vmin, -15.5vmin);
+  transform: translate(calc(-21.33*var(--size)), calc(-10.*var(--size)));
 }
 
 .closure::before {
   content: '';
   position: absolute;
-  height: 16.2vmin;
-  width: 25vmin;
+  height: calc(10.8*var(--size));
+  width: calc(16.67*var(--size));
   background: #282c34;
-  transform: translate(-25vmin, 5.5vmin);
-}
+  transform: translate(calc(-16.67*var(--size)), calc(3.67*var(--size)));
+} */
 
 .line-0 {
   color: #fa8231;
+  animation: fade-out-zero 4s infinite;
+  opacity: 1;
 }
 
 .line-1 {
   color: white;
+  animation: fade-out-one 4s infinite;
+  opacity: 0;
 }
 
 .line-2 {
   color: #c678dd;
+  animation: fade-out-two 4s infinite;
+  opacity: 0;
 }
 
 .line-3 {
   color: #a9b0bd;
+  animation: fade-out-three 4s infinite;
+  opacity: 0;
 }
 
 @keyframes move {
   25% {
-    transform: translatey(-5.8vmin);
+    transform: translatey(calc(-2.4*var(--size)));
+  }
+  50% {
+    transform: translatey(calc(-4.7*var(--size)));
+  }
+  75% {
+    transform: translatey(calc(-7*var(--size)));
+  }
+}
+
+@keyframes fade-out-zero {
+  20% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out-one {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out-two {
+  30% {
+    opacity: 0;
+  }
+  40% {
     opacity: 1;
   }
   50% {
-    transform: translatey(-11vmin);
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out-three {
+  55% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
   }
   75% {
-    transform: translatey(-16.5vmin);
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
   }
 }

@@ -3,297 +3,283 @@ import styles from "./UnderConstruction.module.css";
 
 export const UnderConstruction: React.FC = () => {
   return (
-    <main>
-      <div class="tower">
-        <div class="tower__group">
-          <div class="tower__brick-layer tower__brick-layer--4">
-            <div class="tower__brick tower__brick--0">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+    <div className={styles.main}>
+      <div className={styles.tower}>
+        <div className={styles.tower__group}>
+          <div className={[styles.tower__brick_layer, styles.tower__brick_layer__4].join(' ')}>
+            <div className={[styles.tower__brick, styles.tower__brick__0].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--90 tower__brick--red">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__90, styles.tower__brick__red].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--180 tower__brick--orange">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__180, styles.tower__brick__orange].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--270 tower__brick--purple">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
-            </div>
-          </div>
-          <div class="tower__brick-layer tower__brick-layer--3">
-            <div class="tower__brick tower__brick--45 tower__brick--magenta">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
-            </div>
-            <div class="tower__brick tower__brick--135">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
-            </div>
-            <div class="tower__brick tower__brick--225 tower__brick--green">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
-            </div>
-            <div class="tower__brick tower__brick--315 tower__brick--orange">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__270, styles.tower__brick__purple].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
           </div>
-          <div class="tower__brick-layer tower__brick-layer--2">
-            <div class="tower__brick tower__brick--0 tower__brick--red">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+          <div className={[styles.tower__brick_layer, styles.tower__brick_layer__3].join(' ')}>
+            <div className={[styles.tower__brick, styles.tower__brick__45, styles.tower__brick__magenta].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--90 tower__brick--green">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__135].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--180 tower__brick--purple">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__225, styles.tower__brick__green].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--270">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
-            </div>
-          </div>
-          <div class="tower__brick-layer tower__brick-layer--1">
-            <div class="tower__brick tower__brick--45 tower__brick--purple">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
-            </div>
-            <div class="tower__brick tower__brick--135 tower__brick--magenta">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
-            </div>
-            <div class="tower__brick tower__brick--225 tower__brick--red">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
-            </div>
-            <div class="tower__brick tower__brick--315 tower__brick--green">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__315, styles.tower__brick__orange].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
           </div>
-          <div class="tower__brick-layer">
-            <div class="tower__brick tower__brick--0 tower__brick--move14">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+          <div className={[styles.tower__brick_layer, styles.tower__brick_layer__2].join(' ')}>
+            <div className={[styles.tower__brick, styles.tower__brick__0, styles.tower__brick__red].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--90 tower__brick--red tower__brick--move13">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__90, styles.tower__brick__green].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--180 tower__brick--orange tower__brick--move16">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__180, styles.tower__brick__purple].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--270 tower__brick--purple tower__brick--move15">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
-            </div>
-          </div>
-          <div class="tower__brick-layer tower__brick-layer---1">
-            <div class="tower__brick tower__brick--45 tower__brick--move10 tower__brick--magenta">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
-            </div>
-            <div class="tower__brick tower__brick--135 tower__brick--move9">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
-            </div>
-            <div class="tower__brick tower__brick--225 tower__brick--green tower__brick--move12">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
-            </div>
-            <div class="tower__brick tower__brick--315 tower__brick--orange tower__brick--move11">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__270].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
           </div>
-          <div class="tower__brick-layer tower__brick-layer---2">
-            <div class="tower__brick tower__brick--0 tower__brick--red tower__brick--move6">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+          <div className={[styles.tower__brick_layer, styles.tower__brick_layer__1].join(' ')}>
+            <div className={[styles.tower__brick, styles.tower__brick__45, styles.tower__brick__purple].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--90 tower__brick--green tower__brick--move5">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__135, styles.tower__brick__magenta].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--180 tower__brick--purple tower__brick--move8">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__225, styles.tower__brick__red].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--270 tower__brick--move7">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__315, styles.tower__brick__green].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
           </div>
-          <div class="tower__brick-layer tower__brick-layer---3">
-            <div class="tower__brick tower__brick--45 tower__brick--purple tower__brick--move2">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+          <div className={styles.tower__brick_layer}>
+            <div className={[styles.tower__brick, styles.tower__brick__0, styles.tower__brick__move14].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--135 tower__brick--magenta tower__brick--move1">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__90, styles.tower__brick__red, styles.tower__brick__move13].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--225 tower__brick--red tower__brick--move4">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__180, styles.tower__brick__orange, styles.tower__brick__move16].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
-            <div class="tower__brick tower__brick--315 tower__brick--green tower__brick--move3">
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-side"></div>
-              <div class="tower__brick-stud"></div>
-              <div class="tower__brick-stud"></div>
+            <div className={[styles.tower__brick, styles.tower__brick__270, styles.tower__brick__purple, styles.tower__brick__move15].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
+            </div>
+          </div>
+          <div className={[styles.tower__brick_layer, styles.tower__brick_layer___1].join(' ')}>
+            <div className={[styles.tower__brick, styles.tower__brick__45, styles.tower__brick__move10, styles.tower__brick__magenta].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
+            </div>
+            <div className={[styles.tower__brick, styles.tower__brick__135, styles.tower__brick__move9].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
+            </div>
+            <div className={[styles.tower__brick, styles.tower__brick__225, styles.tower__brick__green, styles.tower__brick__move12].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
+            </div>
+            <div className={[styles.tower__brick, styles.tower__brick__315, styles.tower__brick__orange, styles.tower__brick__move11].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
+            </div>
+          </div>
+          <div className={[styles.tower__brick_layer, styles.tower__brick_layer___2].join(' ')}>
+            <div className={[styles.tower__brick, styles.tower__brick__0, styles.tower__brick__red, styles.tower__brick__move6].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
+            </div>
+            <div className={[styles.tower__brick, styles.tower__brick__90, styles.tower__brick__green, styles.tower__brick__move5].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
+            </div>
+            <div className={[styles.tower__brick, styles.tower__brick__180, styles.tower__brick__purple, styles.tower__brick__move8].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
+            </div>
+            <div className={[styles.tower__brick, styles.tower__brick__270, styles.tower__brick__move7].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
+            </div>
+          </div>
+          <div className={[styles.tower__brick_layer, styles.tower__brick_layer___3].join(' ')}>
+            <div className={[styles.tower__brick, styles.tower__brick__45, styles.tower__brick__purple, styles.tower__brick__move2].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
+            </div>
+            <div className={[styles.tower__brick, styles.tower__brick__135, styles.tower__brick__magenta, styles.tower__brick__move1].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
+            </div>
+            <div className={[styles.tower__brick, styles.tower__brick__225, styles.tower__brick__red, styles.tower__brick__move4].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
+            </div>
+            <div className={[styles.tower__brick, styles.tower__brick__315, styles.tower__brick__green, styles.tower__brick__move3].join(' ')}>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_side}></div>
+              <div className={styles.tower__brick_stud}></div>
+              <div className={styles.tower__brick_stud}></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="message">
-        <p class="message__line">Loading…</p>
-        <p class="message__line">Sorting out the pieces…</p>
-        <p class="message__line">Assembling one brick at a time…</p>
-        <p class="message__line">Following every step…</p>
-        <p class="message__line">
-          Being very careful not to step on the pieces…
-        </p>
-        <p class="message__line">Trying not to get finger blisters…</p>
-        <p class="message__line">
-          Might take longer to build than the Death Star…
-        </p>
-        <p class="message__line">Wrapping it up…</p>
-      </div>
-    </main>
+    </div>
   );
 };

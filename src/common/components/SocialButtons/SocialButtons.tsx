@@ -18,7 +18,7 @@ export const SocialButtons: React.FC = () => {
             <span className={styles.name}>Twitter</span>
           </a>
         </li>
-        <li> className={styles.element}
+        <li className={styles.element}>
           <a href="#" className={styles.link}>
             <FaGithub className={styles.icon}/>
             <span className={styles.name}>GitHub</span>
