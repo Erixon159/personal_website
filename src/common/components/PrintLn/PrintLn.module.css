@@ -42,7 +42,7 @@
 
 .line {
   position: relative;
-  top: calc(3.73*var(--size));
+  top: calc(4*var(--size));
   margin: 0;
   padding: 0;
 }
@@ -91,13 +91,13 @@
 
 @keyframes move {
   25% {
-    transform: translatey(calc(-2.4*var(--size)));
+    transform: translatey(calc(-2.6*var(--size)));
   }
   50% {
-    transform: translatey(calc(-4.7*var(--size)));
+    transform: translatey(calc(-5.3*var(--size)));
   }
   75% {
-    transform: translatey(calc(-7*var(--size)));
+    transform: translatey(calc(-8*var(--size)));
   }
 }
 
