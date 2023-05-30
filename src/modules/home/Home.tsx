@@ -8,7 +8,7 @@ export const Home: React.FC = () => {
   return (
     <main className={styles.main}>
       <BlobBackground>
-        <NameHeader name='Holy Spirit' />
+        <NameHeader name='Erik Hricka' />
       </BlobBackground>
       <UnderConstruction />
     </main>

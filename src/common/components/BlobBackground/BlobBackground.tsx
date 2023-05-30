@@ -1,7 +1,11 @@
 import * as React from "react";
 import styles from "./BlobBackground.module.css";
 
-export const BlobBackground: React.FC = ({ children }) => {
+interface BlobBackgroundProps {
+  children: React.ReactNode;
+}
+
+export const BlobBackground: React.FC<BlobBackgroundProps> = ({ children }) => {
   return (
     <div className={styles.container}>
       <div className={styles.blob_c}>
