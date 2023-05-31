@@ -19,6 +19,9 @@ export const BlobBackground: React.FC<BlobBackgroundProps> = ({ children }) => {
         <div className={[styles.shape_blob, styles.seven].join(' ')}></div>
         <div className={[styles.shape_blob, styles.eight].join(' ')}></div>
         <div className={[styles.shape_blob, styles.nine].join(' ')}></div>
+        <div className={[styles.shape_blob, styles.ten].join(' ')}></div>
+        <div className={[styles.shape_blob, styles.eleven].join(' ')}></div>
+        <div className={[styles.shape_blob, styles.twelve].join(' ')}></div>
       </div>
       {children}
     </div>

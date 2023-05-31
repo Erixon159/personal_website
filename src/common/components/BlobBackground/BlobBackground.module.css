@@ -1,10 +1,14 @@
 .container {
   background: #1f2024;
-  min-height: 65vh;
+  min-height: 100vh;
+  min-width: 100vh;
   overflow: hidden;
   position: relative;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .blob_c {
@@ -17,101 +21,123 @@
 }
 
 .shape_blob {
-  background: #26c3f9;
-  height: 60px;
-  width: 80px;
+  background: #5cffe4;
+  height: 150px;
+  width: 200px;
   border-radius: 40% 50% 30% 40%;
   animation: transform 18s ease-in-out infinite both alternate,
     movement_one 12s ease-in-out infinite both;
   opacity: 0.7;
   position: absolute;
-  left: 75%;
-  top: 40%;
-}
-
-.shape_blob.one {
-  background: #0085ff;
-  height: 150px;
-  width: 200px;
-  left: 3vmax;
+  left: -4vmax;
   top: 1vmax;
-  transform: rotate(-180deg);
-  animation: transform 8s ease-in-out infinite both alternate,
-    movement_two 20s ease-in-out infinite both;
 }
 
 .shape_blob.two {
-  background: #6c4eff;
-  height: 150px;
-  width: 150px;
-  left: 42vmax;
-  top: 12vmax;
+  background: #5cffe4;
+  height: 160px;
+  width: 170px;
+  left: 55vmax;
+  top: 39vmax;
   transform: rotate(-180deg);
   animation: transform 10s ease-in-out infinite both alternate,
     movement_two 10s ease-in-out infinite both;
 }
 
 .shape_blob.three {
-  background: #0eafff;
+  background: #5cffe4;
   height: 150px;
-  width: 150px;
-  left: 70vmax;
-  top: 2vmax;
+  width: 190px;
+  left: 75vmax;
+  top: 10vmax;
   transform: rotate(-180deg);
   animation: transform 7s ease-in-out infinite both alternate,
     movement_two 23s ease-in-out infinite both;
 }
 
-.shape_blob.four {
-  background: #ff4e74;
+/* .shape_blob.four {
+  background: #5cffe4;
   height: 100px;
   width: 80px;
-  left: 22vmax;
+  left: 34vmax;
   top: 6vmax;
   transform: rotate(-180deg);
   animation: transform 17s ease-in-out infinite both alternate,
     movement_two 13s ease-in-out infinite both;
-}
+} */
 
 .shape_blob.five {
-  background: #0085ff;
-  height: 100px;
-  width: 80px;
-  left: 30vmax;
-  top: 4vmax;
+  background: #5cffe4;
+  height: 280px;
+  width: 240px;
+  left: 40vmax;
+  top: -7vmax;
   transform: rotate(-180deg);
   animation: transform 12s ease-in-out infinite both alternate,
     movement_two 18s ease-in-out infinite both;
 }
 
-.shape_blob.seven {
-  background: #ffcf0e;
+/* .shape_blob.seven {
+  background: #b8ff5c;
   height: 130px;
   width: 100px;
   left: 3vmax;
-  top: 25vmax;
+  top: 32vmax;
   transform: rotate(-180deg);
   animation: transform 5s ease-in-out infinite both alternate,
     movement_two 5s ease-in-out infinite both;
-}
+} */
 
 .shape_blob.eight {
-  background: #f620fa;
+  background: #5cffe4;
   height: 170px;
   width: 200px;
-  left: 20vmax;
-  top: 23vmax;
+  left: 10vmax;
+  top: 43vmax;
   transform: rotate(-180deg);
   animation: transform 5s ease-in-out infinite both alternate,
     movement_two 5s ease-in-out infinite both;
 }
 
-.shape_blob.nine {
-  background: #24fa20;
+/* .shape_blob.nine {
+  background: #82ff5c;
   height: 170px;
   width: 200px;
   left: 90vmax;
   top: 20vmax;
+  transform: rotate(-180deg);
+  animation: transform 5s ease-in-out infinite both alternate,
+    movement_two 5s ease-in-out infinite both;
+} */
+
+.shape_blob.ten {
+  background: #5cffe4;
+  height: 170px;
+  width: 200px;
+  left: 87vmax;
+  top: 35vmax;
+  transform: rotate(-180deg);
+  animation: transform 5s ease-in-out infinite both alternate,
+    movement_two 5s ease-in-out infinite both;
+}
+
+/* .shape_blob.eleven {
+  background: #a5ff5c;
+  height: 90px;
+  width: 80px;
+  left: 70vmax;
+  top: 45vmax;
+  transform: rotate(-180deg);
+  animation: transform 5s ease-in-out infinite both alternate,
+    movement_two 5s ease-in-out infinite both;
+} */
+
+.shape_blob.twelve {
+  background: #5cffe4;
+  height: 170px;
+  width: 160px;
+  left: 16vmax;
+  top: 16vmax;
   transform: rotate(-180deg);
   animation: transform 5s ease-in-out infinite both alternate,
     movement_two 5s ease-in-out infinite both;
