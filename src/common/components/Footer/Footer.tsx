@@ -6,8 +6,8 @@ export const Footer: React.FC = () => {
   return (
     <footer className={styles.footer}>
       <SocialButtons />
-      <div>
-        Erik | 2023
+      <div className={styles.copyright}>
+        Erixwrld | 2023
       </div>
     </footer>
   );

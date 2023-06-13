@@ -7,7 +7,7 @@ interface PrintLnProps {
 
 export const PrintLn: React.FC<PrintLnProps> = ({ lines }) => {
   return (
-    <div className={styles.println}>
+    <div className={styles['print-ln']}>
       <h1>System<span className={styles.white}>.<span className={styles.red}>out</span>.</span><span className={styles.blue}>println</span>(&quot;</h1>
       <div className={styles.lines}>
         {lines.map((line, index) => (

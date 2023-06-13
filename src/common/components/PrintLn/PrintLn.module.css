@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
 
-.println {
+.print-ln {
   --size: 1.5vmin;
 
   font-size: var(--size);
@@ -54,7 +54,7 @@
 }
 
 .line-1 {
-  color: white;
+  color: rgb(56, 212, 255);
   animation: fade-out-one 4s infinite;
   opacity: 0;
 }

@@ -1,0 +1,1 @@
+export { RainbowDivider } from "./RainbowDivider";

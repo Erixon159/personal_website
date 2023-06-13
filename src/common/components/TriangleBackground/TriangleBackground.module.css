@@ -1,0 +1,119 @@
+.container {
+  background: #1f2024;
+  min-height: 100vh;
+  min-width: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.triangle {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: rotate 60000ms linear infinite;
+          animation: rotate 60000ms linear infinite;
+}
+.triangle-outer {
+  position: absolute;
+  width: 50vmax;
+  height: 43vmax;
+}
+.triangle-outer::before {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  background: #5cffe4;
+  -webkit-animation: slide 3500ms linear infinite;
+          animation: slide 3500ms linear infinite;
+}
+.triangle-inner {
+  width: 49vmax;
+  height: 42vmax;
+  background: #1f2024;
+  transform: translateY(2px);
+}
+.triangle-inner::before {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  background: #5cffe4;
+  -webkit-animation: slide 3500ms -118ms linear infinite;
+          animation: slide 3500ms -118ms linear infinite;
+}
+.triangle .clip {
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 50% 0);
+          clip-path: polygon(0 100%, 100% 100%, 50% 0);
+}
+
+@-webkit-keyframes slide {
+  0% {
+    transform: translateX(-25vmax);
+  }
+  100% {
+    transform: translateX(65vmax);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-25vmax);
+  }
+  100% {
+    transform: translateX(65vmax);
+  }
+}
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@-webkit-keyframes rotateX {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+@keyframes rotateX {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+@-webkit-keyframes rotateY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+@keyframes rotateY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}

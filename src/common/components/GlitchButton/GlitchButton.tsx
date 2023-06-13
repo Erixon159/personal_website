@@ -8,7 +8,7 @@ interface GlitchButtonProps {
 
 export const GlitchButton: React.FC<GlitchButtonProps> = ({ href, title }) => {
   return (
-    <a href={href} className={styles.glitchbutton}>
+    <a href={href} className={styles['glitch-button']}>
       {title}
     </a>
   );

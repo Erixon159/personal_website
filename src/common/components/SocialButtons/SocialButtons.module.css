@@ -1,28 +1,31 @@
 .container {
   font-family: 'Roboto Condensed', sans-serif;
+  margin: 25px;
 }
 
 .list {
-  display:flex;
+  display: flex;
+  padding-inline-start: unset;
+  margin: 40px 17px 63px;
 }
 
 .element {
-  list-style:none;
-  margin:0 5px;
+  list-style: none;
+  margin: 0 20px;
 }
 
 .icon {
   font-size: 40px;
   color: #262626;
-  line-height:80px;
+  line-height: 80px;
   transition: .5s;
   padding-right: 14px;
 }
 
 .name {
-  padding:0;
-  margin:0;
-  position:absolute;
+  padding: 0;
+  margin: 0;
+  position: absolute;
   top: 30px;
   color: #262626;
   letter-spacing: 4px;
@@ -31,24 +34,24 @@
 
 .link {
   text-decoration: none;
-  display:absolute;
-  display:block;
-  width:210px;
-  height:80px;
+  display: block;
+  width: 210px;
+  height: 80px;
+  padding-top: 18px;
   background: #fff;
-  text-align:left;
+  text-align: left;
   padding-left: 20px;
   transform: rotate(-30deg) skew(25deg) translate(0,0);
-  transition:.5s;
+  transition: .5s;
   box-shadow: -20px 20px 10px rgba(0,0,0,.5);
 }
 .link:before {
   content: '';
   position: absolute;
-  top:10px;
-  left:-20px;
-  height:100%;
-  width:20px;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
   background: #b1b1b1;
   transform: .5s;
   transform: rotate(0deg) skewY(-45deg);
@@ -56,10 +59,10 @@
 .link:after {
   content: '';
   position: absolute;
-  bottom:-20px;
-  left:-10px;
-  height:20px;
-  width:100%;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
   background: #b1b1b1;
   transform: .5s;
   transform: rotate(0deg) skewX(-45deg);
@@ -71,11 +74,11 @@
 }
 
 .element:hover .icon {
-  color:#fff;
+  color: #fff;
 }
 
 .element:hover .name {
-  color:#fff;
+  color: #fff;
 }
 
 .element:hover:nth-child(1) .link{

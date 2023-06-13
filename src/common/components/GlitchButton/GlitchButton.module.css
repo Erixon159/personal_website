@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-.glitchbutton, .glitchbutton::after {
+.glitch-button, .glitch-button::after {
   top: 6%;
   cursor: pointer;
   width: 380px;
@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-.glitchbutton::after {
+.glitch-button::after {
   --slice-0: inset(50% 50% 50% 50%);
   --slice-1: inset(80% -6px 0 0);
   --slice-2: inset(50% -6px 30% 0);
@@ -38,7 +38,7 @@
   clip-path: var(--slice-0);
 }
 
-.glitchbutton:hover::after {
+.glitch-button:hover::after {
   animation: 1s glitchButton;
   animation-timing-function: steps(2, end);
 }

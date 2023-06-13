@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-.blob_c {
+.blob {
   min-height: 100vh;
   overflow: hidden;
   position: absolute;
@@ -20,7 +20,7 @@
   /*   background: rgba(255,255,255,0.1) */
 }
 
-.shape_blob {
+.shape-blob {
   background: #5cffe4;
   height: 150px;
   width: 200px;
@@ -33,7 +33,7 @@
   top: 1vmax;
 }
 
-.shape_blob.two {
+.shape-blob.two {
   background: #5cffe4;
   height: 160px;
   width: 170px;
@@ -44,7 +44,7 @@
     movement_two 10s ease-in-out infinite both;
 }
 
-.shape_blob.three {
+.shape-blob.three {
   background: #5cffe4;
   height: 150px;
   width: 190px;
@@ -55,7 +55,7 @@
     movement_two 23s ease-in-out infinite both;
 }
 
-/* .shape_blob.four {
+/* .shape-blob.four {
   background: #5cffe4;
   height: 100px;
   width: 80px;
@@ -66,7 +66,7 @@
     movement_two 13s ease-in-out infinite both;
 } */
 
-.shape_blob.five {
+.shape-blob.five {
   background: #5cffe4;
   height: 280px;
   width: 240px;
@@ -77,7 +77,7 @@
     movement_two 18s ease-in-out infinite both;
 }
 
-/* .shape_blob.seven {
+/* .shape-blob.seven {
   background: #b8ff5c;
   height: 130px;
   width: 100px;
@@ -88,7 +88,7 @@
     movement_two 5s ease-in-out infinite both;
 } */
 
-.shape_blob.eight {
+.shape-blob.eight {
   background: #5cffe4;
   height: 170px;
   width: 200px;
@@ -99,7 +99,7 @@
     movement_two 5s ease-in-out infinite both;
 }
 
-/* .shape_blob.nine {
+/* .shape-blob.nine {
   background: #82ff5c;
   height: 170px;
   width: 200px;
@@ -110,7 +110,7 @@
     movement_two 5s ease-in-out infinite both;
 } */
 
-.shape_blob.ten {
+.shape-blob.ten {
   background: #5cffe4;
   height: 170px;
   width: 200px;
@@ -121,7 +121,7 @@
     movement_two 5s ease-in-out infinite both;
 }
 
-/* .shape_blob.eleven {
+/* .shape-blob.eleven {
   background: #a5ff5c;
   height: 90px;
   width: 80px;
@@ -132,7 +132,7 @@
     movement_two 5s ease-in-out infinite both;
 } */
 
-.shape_blob.twelve {
+.shape-blob.twelve {
   background: #5cffe4;
   height: 170px;
   width: 160px;

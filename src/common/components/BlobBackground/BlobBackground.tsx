@@ -8,20 +8,20 @@ interface BlobBackgroundProps {
 export const BlobBackground: React.FC<BlobBackgroundProps> = ({ children }) => {
   return (
     <div className={styles.container}>
-      <div className={styles.blob_c}>
-        <div className={styles.shape_blob}></div>
-        <div className={[styles.shape_blob, styles.one].join(' ')}></div>
-        <div className={[styles.shape_blob, styles.two].join(' ')}></div>
-        <div className={[styles.shape_blob, styles.three].join(' ')}></div>
-        <div className={[styles.shape_blob, styles.four].join(' ')}></div>
-        <div className={[styles.shape_blob, styles.five].join(' ')}></div>
-        <div className={[styles.shape_blob, styles.six].join(' ')}></div>
-        <div className={[styles.shape_blob, styles.seven].join(' ')}></div>
-        <div className={[styles.shape_blob, styles.eight].join(' ')}></div>
-        <div className={[styles.shape_blob, styles.nine].join(' ')}></div>
-        <div className={[styles.shape_blob, styles.ten].join(' ')}></div>
-        <div className={[styles.shape_blob, styles.eleven].join(' ')}></div>
-        <div className={[styles.shape_blob, styles.twelve].join(' ')}></div>
+      <div className={styles.blob}>
+        <div className={styles['shape-blob']}></div>
+        <div className={[styles['shape-blob'], styles.one].join(' ')}></div>
+        <div className={[styles['shape-blob'], styles.two].join(' ')}></div>
+        <div className={[styles['shape-blob'], styles.three].join(' ')}></div>
+        <div className={[styles['shape-blob'], styles.four].join(' ')}></div>
+        <div className={[styles['shape-blob'], styles.five].join(' ')}></div>
+        <div className={[styles['shape-blob'], styles.six].join(' ')}></div>
+        <div className={[styles['shape-blob'], styles.seven].join(' ')}></div>
+        <div className={[styles['shape-blob'], styles.eight].join(' ')}></div>
+        <div className={[styles['shape-blob'], styles.nine].join(' ')}></div>
+        <div className={[styles['shape-blob'], styles.ten].join(' ')}></div>
+        <div className={[styles['shape-blob'], styles.eleven].join(' ')}></div>
+        <div className={[styles['shape-blob'], styles.twelve].join(' ')}></div>
       </div>
       {children}
     </div>

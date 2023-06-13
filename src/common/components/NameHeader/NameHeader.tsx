@@ -16,7 +16,7 @@ export const NameHeader: React.FC<NameHeaderProps> = ({ name }) => {
         </h1>
       </div>
       <div className={styles.role}>
-        <PrintLn lines={['Front-End', 'Back-End', 'Deployment', 'Testing']}/>
+        <PrintLn lines={['Ruby on Rails', 'Vue.js', 'Postgre SQL 🐘', 'Docker 🐋']}/>
       </div>
     </div>
   );
