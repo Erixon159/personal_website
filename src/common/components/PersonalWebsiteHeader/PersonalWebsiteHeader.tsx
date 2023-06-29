@@ -8,8 +8,8 @@ export const PersonalWebsiteHeader: React.FC = () => {
         <div className={[styles['content-container'], styles['content-theme-dark']].join(' ')}>
           <div className={styles['content-inner']}>
             <div className={styles['content-center']}>
-              <h1>Finest</h1>
-              <p>Dual Color Text Effect by Finest Pixels</p>
+              <h1>HELLO</h1>
+              <p>MY NAME IS ERIK AND I AM PROGRAMMER</p>
             </div>
           </div>
         </div>
@@ -18,8 +18,8 @@ export const PersonalWebsiteHeader: React.FC = () => {
         <div className={[styles['content-container'], styles['content-theme-light']].join(' ')}>
           <div className={styles['content-inner']}>
             <div className={styles['content-center']}>
-              <h1>Finest</h1>
-              <p>Dual Color Text Effect by Finest Pixels</p>
+              <h1>WORLD</h1>
+              <p>WELCOME TO MY PERSONAL WORLD</p>
             </div>
           </div>
         </div>

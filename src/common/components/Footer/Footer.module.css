@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap");
 
 .footer {
-    padding: 2rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .copyright {
-    margin-top: 15px;
-    color: #fff;
-    font-family: "Poppins";
+  margin-top: 45px;
+  color: #fff;
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
 }
