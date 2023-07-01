@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
-
 .print-ln {
   --size: 1.5vmin;
 
   font-size: var(--size);
-  font-family: JetBrains Mono, monospace;
   display: flex;
   justify-content: center;
   align-items: center;

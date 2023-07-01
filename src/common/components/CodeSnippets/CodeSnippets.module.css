@@ -28,7 +28,6 @@
 .code-card-text {
   padding: 0;
   margin: 0;
-  font-family: "Poppins";
   color: #fff;
   font-size: 4vmin;
   text-align: end;
@@ -59,7 +58,7 @@
   position: absolute;
   width: 290px;
   height: 145px;
-  background: #1D1E22;
+  background: #2c2c2e;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
   border-radius: 6px;
   z-index: 5;
@@ -76,7 +75,6 @@
 }
 
 .code header h1 {
-  font-family: Lato, sans-serif;
   font-weight: 900;
   font-size: 14px;
   letter-spacing: 1.57px;

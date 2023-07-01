@@ -1,13 +1,19 @@
 import * as React from "react";
 import { FaLinkedin, FaTwitter, FaGithub, FaInstagram } from 'react-icons/fa';
+import { Raleway } from '@next/font/google';
 import styles from "./SocialButtons.module.css";
+
+export const text = Raleway({
+  subsets: ['latin'],
+  weight: ['400']
+});
 
 export const SocialButtons: React.FC = () => {
   return (
     <div className={styles.container}>
       <ul className={styles.list}>
         <li className={styles.element}>
-          <a href="https://www.linkedin.com/in/erik-h-2b1a27163" className={styles.link} target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/erik-h-2b1a27163" className={[styles.link, text.className].join(' ')} target="_blank" rel="noreferrer">
             <FaLinkedin className={styles.icon}/>
             <span className={styles.name}>LinkedIn</span>
           </a>

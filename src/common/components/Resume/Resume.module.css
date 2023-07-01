@@ -1,0 +1,67 @@
+.container {
+  margin: 0 8vw 15vh 8vw;
+  color: white;
+}
+
+.section {
+  margin: 5vh 0;
+}
+
+.section p,
+.section li {
+  font-size: 2vh;
+}
+
+.section.header h1 {
+  font-weight: bold;
+  font-size: 10vh;
+  line-height: 12vh;
+  padding-top: 1vh;
+  margin: 0;
+  background-image: linear-gradient(gold, gold);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  transition: background-size .7s, background-position .5s ease-in-out;
+}
+
+.section.header h1:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+}
+
+.section code {
+  display: inline;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in-out;
+  font-size: 5vh;
+  background-position: bottom left;
+  background-size: 0% 8px;
+  background-image: linear-gradient(gold, gold);
+  padding-bottom: 8px;
+}
+
+.section:hover code {
+  background-size: 100% 8px;
+}
+
+.section .important {
+  display: inline;
+  background-repeat: no-repeat;
+  transition: all 500ms ease-in-out;
+  background-position: left;
+  background-size: 0% 100%;
+  background-image: linear-gradient(#f65e5e, #f65e5e);
+  white-space: nowrap;
+}
+
+.section:hover .important {
+  background-size: 100% 100%;
+}
+
+.section .download {
+  margin: 5vh 5vw;
+  display: flex;
+  justify-content: space-evenly;
+}
