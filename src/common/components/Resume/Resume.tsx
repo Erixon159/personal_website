@@ -37,7 +37,7 @@ export const Resume: React.FC = () => {
         <p>
           Highly motivated <span className={styles.important}>web developer</span> with a master&apos;s degree in computer
           science and extensive experience in both <span className={styles.important}>back-end and front-end</span> development.
-          Skilled in PHP, Ruby on Rails, JavaScript, TypeScript and Vue.js.
+          Skilled in PHP, Ruby on Rails, JavaScript, TypeScript and Vue.js with experience in deploying multi-tenant applications with zero downtime.
           Strong background in <span className={styles.important}>agile methodologies</span> and a proven ability to
           deliver <span className={styles.important}>high-quality solutions</span>. Excellent communication
           and <span className={styles.important}>problem-solving skills</span> with a passion for tackling challenges. Seeking
@@ -50,21 +50,30 @@ export const Resume: React.FC = () => {
         </h3>
         <p>
           <span className={styles.important}>Master of Science in Computer Science</span>, Slovak University of
-          Technology, Bratislava, June 2022
+          Technology in Bratislava, June 2022
         </p>
         <blockquote>
           <ul>
             <li>Specialized in <span className={styles.important}>applied informatics</span></li>
-            <li>
-              Participated in the Erasmus study program at the <span className={styles.important}>Technical
-              University of Munich</span>, September 2020 - March 2021
-            </li>
+          </ul>
+        </blockquote>
+        <p>
+          <span className={styles.important}>Erasmus study program</span>, Technical University of Munich, September 2020 - March 2021
+        </p>
+        <blockquote>
+          <ul>
+            <li>Study conducted in English language</li>
           </ul>
         </blockquote>
         <p>
           Bachelor of Science in Applied Informatics, Slovak University of
-          Technology, Bratislava, June 2019
+          Technology in Bratislava, June 2019
         </p>
+        <blockquote>
+          <ul>
+            <li>Specialized in <span className={styles.important}>applied informatics</span></li>
+          </ul>
+        </blockquote>
       </div>
       <div className={[styles.section, styles['work-exp']].join(' ')}>
         <h3>
@@ -164,6 +173,7 @@ export const Resume: React.FC = () => {
             <li>Rowing (Dragonboat)</li>
             <li>Downhill Bicycling</li>
             <li>Swimming</li>
+            <li>Snowboarding</li>
             <li>Weightlifting</li>
             <li>Hiking</li>
             <li>Reading about new trends in tech</li>
@@ -177,11 +187,11 @@ export const Resume: React.FC = () => {
         </h3>
         <div className={styles.download}>
           <DownloadButton
-            link='/cv.pdf'
+            link='/CV.pdf'
             text='Resume (PDF format)'
           />
           <DownloadButton
-            link='/cv.pdf'
+            link='/CV.docx'
             text='Resume (DOCX format)'
           />
         </div>
