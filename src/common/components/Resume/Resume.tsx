@@ -127,7 +127,7 @@ export const Resume: React.FC = () => {
         <blockquote>
           <ul>
             <li>
-              Contributed to back-end (<span className={styles.important}>PHP, Laravel, MySQL</span>) and front-end (<span className={styles.important}>JavaScript, React.js</span>) development
+              Contributed to back-end (<span className={styles.important}>PHP, Laravel, MySQL, MongoDB</span>) and front-end (<span className={styles.important}>JavaScript, React.js</span>) development
             </li>
             <li>Assisted with deployments using <span className={styles.important}>Docker and Linux</span></li>
             <li>
@@ -144,9 +144,10 @@ export const Resume: React.FC = () => {
           <ul>
             <li>Programming Languages: Ruby, PHP, JavaScript, TypeScript</li>
             <li>Web Development Frameworks: Ruby on Rails, Vue.js, Next.js, Laravel</li>
-            <li>Databases: MySQL, PostgreSQL</li>
+            <li>Databases: MySQL, PostgreSQL, MongoDB</li>
             <li>Testing: RSpec, Cypress</li>
-            <li>Deployment: Docker, Engine Yard</li>
+            <li>Logging: Sentry</li>
+            <li>Deployment: Docker, Linux, Engine Yard</li>
             <li>Design: Figma</li>
             <li>Agile Methodologies</li>
             <li>Strong problem-solving and analytical skills</li>
@@ -176,6 +177,7 @@ export const Resume: React.FC = () => {
             <li>Snowboarding</li>
             <li>Weightlifting</li>
             <li>Hiking</li>
+            <li>Self development</li>
             <li>Reading about new trends in tech</li>
             <li>Creating small projects using artificial intelligence</li>
           </ul>
