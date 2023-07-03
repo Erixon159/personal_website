@@ -142,8 +142,7 @@ export const Resume: React.FC = () => {
         </h3>
         <blockquote>
           <ul>
-            <li>Programming Languages: Ruby, PHP, JavaScript, TypeScript</li>
-            <li>Web Development Frameworks: Ruby on Rails, Vue.js, Next.js, Laravel</li>
+            <li>Programming Languages/Frameworks: Ruby on Rails, Vue.js, Next.js, React.js, JavaScript, TypeScript, PHP, Laravel</li>
             <li>Databases: MySQL, PostgreSQL, MongoDB</li>
             <li>Testing: RSpec, Cypress</li>
             <li>Logging: Sentry</li>
