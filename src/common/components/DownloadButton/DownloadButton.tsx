@@ -17,7 +17,7 @@ export const DownloadButton: React.FC<DownloadButtonProps> = ({ link, text }) =>
     <div className={styles.button}>
       <a href={link} target="_blank" rel="noreferrer" className={line.className}>
         {text}
-        <span className={styles.shift}>›</span>
+        <span className={styles.shift}></span>
       </a>
       <div className={styles.mask}></div>
     </div>

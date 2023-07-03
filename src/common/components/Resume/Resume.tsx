@@ -28,7 +28,7 @@ export const Resume: React.FC = () => {
         <h3>
           <code className={code.className}>::contact information</code>
         </h3>
-        <p>Phone: <a className={styles.important} href="tel:+17788474681">+1 778 847 4681</a><br/>Email: <a className={styles.important} href="mailto:erikhricka@gmail.com">erikhricka@gmail.com</a></p>
+        <p>Phone: <a href="tel:+17788474681">+1 778 847 4681</a><br/>Email: <a href="mailto:erikhricka@gmail.com">erikhricka@gmail.com</a></p>
       </div>
       <div className={[styles.section, styles.summary].join(' ')}>
         <h3>
